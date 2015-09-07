@@ -1,0 +1,1 @@
+@pyw.exe X:\Python\PythonHelloWorld\ReadingAndWritingFiles\Projects\mcb.pyw %*
