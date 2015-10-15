@@ -1,4 +1,4 @@
-def SayHi(name):
+﻿def SayHi(name):
     val = 'Hello ' + name
     return val
 
@@ -6,7 +6,7 @@ print(SayHi('David'))
 val = print('xyz')
 None == val
 
-
+###################################################
 print('Lion','Nion','Zion!')
 print('RavenDB', 'MongoDB', 'Riak', end='|')
 print('Apache Cassandra')
@@ -31,6 +31,6 @@ print('Global: ' + str(eggs))
 #2. by default the end parameter is ' ' . But in the example above I made it pipe
 #3. This is not a statically typed language...notice I'm calling for eggs in spam but allowing the
 #   interpreter to run without eggs being defined until after the function is defined!
-#4. Notice, in order to modify a global variable you need to use the keyword 'global. See line 22
+#4. Notice, in order to ***modify*** a global variable you need to use the keyword 'global. See line 22
 
 

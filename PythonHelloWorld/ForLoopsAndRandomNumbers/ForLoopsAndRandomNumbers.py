@@ -1,6 +1,6 @@
-#import random
-import sys
-from random import *
+﻿#import random
+import sys # normal way of importing
+from random import * #allows me not to worry about specifying namespace in front of commands. 
 
 prev = 0
 for i in range(10):
